@@ -1,0 +1,120 @@
+{
+  "presentation": {
+    "title": "Тестовая презентация",
+    "author": "Presentation Generator",
+    "table_of_contents": true,
+    "slides": [
+      {
+        "layout": 0,
+        "title": "Моя тестовая презентация",
+        "subtitle": "Создано автоматически"
+      },
+      {
+        "layout": 1,
+        "title": "Первый слайд с текстом",
+        "content": [
+          {
+            "type": "text",
+            "text": "Основной заголовок",
+            "level": 0,
+            "style": {
+              "bold": true,
+              "size": 16
+            }
+          },
+          {
+            "type": "text",
+            "text": "Первый пункт",
+            "level": 1
+          },
+          {
+            "type": "text",
+            "text": "Второй пункт",
+            "level": 1
+          },
+          {
+            "type": "text",
+            "text": "Вложенный пункт",
+            "level": 2
+          }
+        ]
+      },
+      {
+        "layout": 1,
+        "title": "Слайд с таблицей",
+        "content": [
+          {
+            "type": "table",
+            "header": true,
+            "data": [
+              [
+                "Параметр",
+                "Значение",
+                "Статус"
+              ],
+              [
+                "Скорость",
+                "100 м/с",
+                "Отлично"
+              ],
+              [
+                "Качество",
+                "95%",
+                "Хорошо"
+              ],
+              [
+                "Надежность",
+                "99.9%",
+                "Отлично"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "layout": 3,
+        "title": "Слайд с двумя колонками",
+        "left_content": [
+          {
+            "type": "text",
+            "text": "Левая колонка",
+            "level": 0,
+            "style": {
+              "bold": true
+            }
+          },
+          {
+            "type": "text",
+            "text": "Пункт 1",
+            "level": 1
+          },
+          {
+            "type": "text",
+            "text": "Пункт 2",
+            "level": 1
+          }
+        ],
+        "right_content": [
+          {
+            "type": "text",
+            "text": "Правая колонка",
+            "level": 0,
+            "style": {
+              "bold": true
+            }
+          },
+          {
+            "type": "text",
+            "text": "Пункт A",
+            "level": 1
+          },
+          {
+            "type": "text",
+            "text": "Пункт B",
+            "level": 1
+          }
+        ]
+      }
+    ]
+  }
+}
